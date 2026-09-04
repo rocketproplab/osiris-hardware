@@ -1,0 +1,140 @@
+(footprint "TestPoint_2Pads_Pitch5.08mm_Drill1.3mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Test point with 2 pads, pitch 5.08mm, hole diameter 1.3mm, wire diameter 1.0mm")
+	(tags "CONN DEV")
+	(property "Reference" "+ BAT -"
+		(at 2.54 -3 0)
+		(layer "F.SilkS")
+		(uuid "856fbedb-f0ac-4284-9f5a-88f21f4ed0de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Battery"
+		(at 2.54 3 0)
+		(layer "F.Fab")
+		(uuid "7b90cc4d-5411-4587-b2d4-66d163129c98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8fc1b671-dba5-4f12-a749-498c079bae64")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "542e565c-477d-4b14-8096-50fe2121794c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "SET_AV.kicad_sch")
+	(attr through_hole exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2 -2)
+		(end 7 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7d6f48a9-7f20-4446-a696-65db2d582bcf")
+	)
+	(fp_line
+		(start -1.8 -1.8)
+		(end -1.8 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "20f02039-9051-48d2-a3e0-4f3754d628ca")
+	)
+	(fp_line
+		(start -1.8 -1.8)
+		(end 6.88 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3d6f8a42-89c6-4531-b8a2-68dbd89c699e")
+	)
+	(fp_line
+		(start 6.88 1.8)
+		(end -1.8 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6f94ec2b-d281-46a5-a7c0-6830fa472ff1")
+	)
+	(fp_line
+		(start 6.88 1.8)
+		(end 6.88 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9cdfe504-5130-4b1b-aab8-f0d957beea1c")
+	)
+	(fp_line
+		(start 5.08 0)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0535c18b-8bd0-4437-a02c-dfd00d753822")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.09615384615)
+		(uuid "58b867f1-5797-4b5a-9877-4d6563849c27")
+	)
+	(pad "2" thru_hole roundrect
+		(at 5.08 0)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.09615384615)
+		(uuid "858a72be-7017-4128-b783-5d5c4bea2004")
+	)
+	(embedded_fonts no)
+)
